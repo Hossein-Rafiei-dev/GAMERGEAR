@@ -2,7 +2,7 @@
 
 ### A Gaming Accessories Store Built with Next.js
 
-GAMERGEAR is a gaming accessories e-commerce project focused on building a modern shopping experience with responsive UI components and reusable React architecture.
+GAMERGEAR is a gaming accessories e-commerce project built with Next.js, React, and Tailwind CSS. It focuses on creating a modern, responsive shopping experience with reusable components and essential e-commerce functionality.
 
 ## 🚀 Features
 
@@ -13,16 +13,17 @@ GAMERGEAR is a gaming accessories e-commerce project focused on building a moder
 - 📦 Checkout and order form interface
 - 📱 Responsive user interface
 - 🧩 Reusable React components
+- 🔌 Local API integration using JSON Server
 
 ## 🛠️ Tech Stack
 
-- **Next.js**
-- **React**
-- **TypeScript**
-- **JavaScript**
-- **Tailwind CSS**
-- **JSON Server** for local development data
-- **Git & GitHub**
+- **Next.js** — React framework
+- **React** — Component-based UI development
+- **JavaScript & TypeScript** — Application logic and type safety
+- **Tailwind CSS** — Responsive styling
+- **JSON Server** — Local development API
+- **Axios** — HTTP requests
+- **Git & GitHub** — Version control and source code hosting
 
 ## 📸 Screenshots
 
@@ -32,8 +33,10 @@ Screenshots will be added as the project presentation is finalized.
 
 ### Prerequisites
 
-- Node.js
-- npm
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
 
 ### Installation
 
@@ -43,13 +46,13 @@ Screenshots will be added as the project presentation is finalized.
    git clone https://github.com/Hossein-rafiee-esf/GAMERGEAR.git
    ```
 
-2. Open the project directory:
+2. Navigate to the project directory:
 
    ```bash
    cd GAMERGEAR
    ```
 
-3. Install dependencies:
+3. Install the dependencies:
 
    ```bash
    npm install
@@ -57,31 +60,38 @@ Screenshots will be added as the project presentation is finalized.
 
 ### Run the Application
 
-The project uses JSON Server for local product and order data. Two terminal windows are required.
+GAMERGEAR uses JSON Server to provide local product and order data. You need to run the API and Next.js development server in two separate terminals.
 
-**Terminal 1 — Start JSON Server:**
+**Terminal 1 — Start JSON Server**
 
 ```bash
 npm run server
 ```
 
-The API will be available at `http://localhost:8000`.
+The local API will be available at:
 
-**Terminal 2 — Start Next.js:**
+`http://localhost:8000`
+
+**Terminal 2 — Start Next.js**
 
 ```bash
 npm run dev
 ```
 
-Open `http://localhost:3000` in your browser.
+Open the application in your browser:
 
-### Sample Database
+`http://localhost:3000`
 
-The repository includes `db.example.json`, a sample database used for local development.
+### 🗄️ Sample Database
 
-The `npm run server` command starts JSON Server using this sample database. The sample file contains product data and an empty order list.
+The repository includes `db.example.json`, which provides sample product data for local development.
 
-**Important:** The local `app/db.json` file is excluded from Git to help prevent private development data from being published.
+The `npm run server` command starts JSON Server using this sample database. The sample database contains product records and an empty order list.
+
+**Important:** The local `app/db.json` file is excluded from Git to help prevent private development data from being committed.
+
+The sample database is intended for development and demonstration purposes only. It is not configured as a production database.
+
 ## 👨‍💻 Developer
 
 **Hossein Rafiei**
@@ -89,6 +99,7 @@ The `npm run server` command starts JSON Server using this sample database. The 
 Front-End Developer focused on React, Next.js, and modern web development.
 
 - GitHub: [@Hossein-rafiee-esf](https://github.com/Hossein-rafiee-esf)
+- Project Repository: [GAMERGEAR](https://github.com/Hossein-rafiee-esf/GAMERGEAR)
 
 ---
 
