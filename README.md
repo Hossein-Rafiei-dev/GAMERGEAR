@@ -27,8 +27,25 @@ GAMERGEAR is a gaming accessories e-commerce project built with Next.js, React, 
 
 ## 📸 Screenshots
 
-Screenshots will be added as the project presentation is finalized.
+### Homepage — Hero Section
 
+![GAMERGEAR Homepage Hero](screenshots/home-hero.png)
+
+### Homepage — Products
+
+![GAMERGEAR Product Listing](screenshots/home-products.png)
+
+### Homepage — Footer
+
+![GAMERGEAR Homepage Footer](screenshots/home-footer.png)
+
+### Product Details
+
+![GAMERGEAR Product Details](screenshots/product-details.png)
+
+### Shopping Cart
+
+![GAMERGEAR Shopping Cart](screenshots/shopping-cart.png)
 ## ⚙️ Getting Started
 
 ### Prerequisites
