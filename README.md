@@ -55,16 +55,33 @@ Screenshots will be added as the project presentation is finalized.
    npm install
    ```
 
-4. Start the development server:
+### Run the Application
 
-   ```bash
-   npm run dev
-   ```
+The project uses JSON Server for local product and order data. Two terminal windows are required.
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+**Terminal 1 — Start JSON Server:**
 
-**Note:** The complete shopping experience currently depends on local development data served through JSON Server. A sanitized sample database and its setup instructions will be added separately.
+```bash
+npm run server
+```
 
+The API will be available at `http://localhost:8000`.
+
+**Terminal 2 — Start Next.js:**
+
+```bash
+npm run dev
+```
+
+Open `http://localhost:3000` in your browser.
+
+### Sample Database
+
+The repository includes `db.example.json`, a sample database used for local development.
+
+The `npm run server` command starts JSON Server using this sample database. The sample file contains product data and an empty order list.
+
+**Important:** The local `app/db.json` file is excluded from Git to help prevent private development data from being published.
 ## 👨‍💻 Developer
 
 **Hossein Rafiei**
