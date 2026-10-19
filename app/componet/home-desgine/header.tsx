@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import Link from "next/link";
+import { Suspense } from "react";import Link from "next/link";
 import Search from "@/app/componet/Search";
 
 const Header = () => {
@@ -84,7 +84,7 @@ const Header = () => {
                 md:text-xs
               "
             >
-              // SYSTEM ONLINE // 001
+               SYSTEM ONLINE  001
             </p>
 
             {/* TITLE */}
@@ -110,7 +110,7 @@ const Header = () => {
                 md:text-base md:tracking-[0.3em]
               "
             >
-              // SYSTEM ONLINE — CHOOSE YOUR WEAPON
+               SYSTEM ONLINE — CHOOSE YOUR WEAPON
             </p>
 
             {/* BUTTONS */}
@@ -157,9 +157,11 @@ const Header = () => {
             </div>
 
             {/* SEARCH BOX */}
-            <div className="mt-5 w-full max-w-2xl text-left sm:mt-7">
-              <Search/>
-            </div>
+           <div className="mt-5 w-full max-w-2xl text-left sm:mt-7">
+  <Suspense fallback={<div className="h-20 w-full animate-pulse bg-zinc-950" />}>
+    <Search />
+  </Suspense>
+</div>
           </div>
         </div>
 

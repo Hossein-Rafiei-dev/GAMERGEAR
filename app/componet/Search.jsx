@@ -74,7 +74,7 @@ const Search = () => {
       {/* Footer Text */}
       <div className="flex flex-wrap items-center justify-between gap-2 mt-3">
         <p className="text-[10px] sm:text-xs font-mono text-zinc-600 tracking-wider">
-          // FIND YOUR NEXT GEAR
+           FIND YOUR NEXT GEAR
         </p>
 
         <p className="text-[10px] sm:text-xs font-mono text-zinc-600">

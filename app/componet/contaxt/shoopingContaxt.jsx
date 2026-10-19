@@ -98,9 +98,10 @@ useEffect(() => {
   try {
     const stored = localStorage.getItem("cartitem");
 
-    if (stored) {
-      setCartItem(JSON.parse(stored));
-    }
+   if (stored) {
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  setCartItem(JSON.parse(stored));
+}
   } catch (error) {
     console.error("خطا در خواندن سبد خرید:", error);
   } finally {

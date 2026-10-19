@@ -49,9 +49,17 @@ const Footer = () => {
 
           {/* ================= NAVIGATION ================= */}
           <div>
-            <p className="mb-7 text-xs font-bold tracking-[0.35em] text-red-500">
-              // NAVIGATION
-            </p>
+           <p className="mb-7 text-xs font-bold tracking-[0.35em] text-red-500">
+  NAVIGATION
+</p>
+
+<p className="mb-7 text-xs font-bold tracking-[0.35em] text-red-500">
+  SUPPORT
+</p>
+
+<p className="mb-7 text-xs font-bold tracking-[0.35em] text-red-500">
+  CONTACT
+</p>
 
             <div className="flex flex-col gap-5">
 
@@ -108,9 +116,9 @@ const Footer = () => {
 
           {/* ================= SUPPORT ================= */}
           <div>
-            <p className="mb-7 text-xs font-bold tracking-[0.35em] text-red-500">
-              // SUPPORT
-            </p>
+          <p className="mb-7 text-xs font-bold tracking-[0.35em] text-red-500">
+  SUPPORT
+</p>
 
             <div className="flex flex-col gap-5">
 
@@ -147,9 +155,7 @@ const Footer = () => {
 
           {/* ================= CONTACT ================= */}
           <div>
-            <p className="mb-7 text-xs font-bold tracking-[0.35em] text-red-500">
-              // CONTACT
-            </p>
+              <p className="mb-7 text-xs font-bold tracking-[0.35em] text-red-500">CONTACT</p>
 
             <div className="flex flex-col gap-6">
 

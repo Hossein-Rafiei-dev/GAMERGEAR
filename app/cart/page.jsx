@@ -6,7 +6,7 @@ import { ShoopingContaxt } from "@/app/componet/contaxt/shoopingContaxt";
 import { Trash } from "lucide-react";
 import Link from "next/link";
 
-const page = () => {
+const CartPage  = () => {
   // ================= CONTEXT =================
 
   const { cartItem , deletAll } = useContext(ShoopingContaxt);
@@ -87,9 +87,9 @@ const page = () => {
             YOUR GEAR_
           </h1>
 
-          <p className="mt-3 text-sm text-zinc-500">
-            // review selected equipment before checkout
-          </p>
+        <p className="mt-3 text-sm text-zinc-500">
+  {"// review selected equipment before checkout"}
+</p>
         </div>
 
         {/* ================= MAIN CONTENT ================= */}
@@ -489,4 +489,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default CartPage;

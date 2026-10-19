@@ -160,7 +160,7 @@ const ShopAddres = () => {
           </h1>
 
           <p className="mt-4 text-sm leading-6 text-zinc-500">
-            // Enter your information and review your gear before payment.
+            /Enter your information and review your gear before payment.
           </p>
         </header>
 

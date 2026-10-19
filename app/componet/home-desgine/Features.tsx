@@ -53,7 +53,7 @@ export default function Features() {
         {/* HEADER */}
         <div className="mb-12 text-center">
           <p className="mb-3 text-[10px] font-medium tracking-[0.5em] text-red-500">
-            // SYSTEM // ADVANTAGES
+             SYSTEM  ADVANTAGES
           </p>
 
           <h2 className="text-3xl font-black uppercase tracking-tight text-white md:text-4xl">
@@ -151,7 +151,7 @@ export default function Features() {
 
                 {/* NUMBER */}
                 <span className="relative mb-3 block text-[9px] font-medium tracking-[0.4em] text-red-600">
-                  // {feature.id}
+                   {feature.id}
                 </span>
 
                 {/* TITLE */}

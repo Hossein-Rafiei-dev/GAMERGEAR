@@ -6,7 +6,7 @@ export default function CategoryShowcase({categories}) {
       {/* HEADER */}
       <div className="mb-16">
         <p className="mb-4 text-sm font-medium uppercase tracking-[0.45em] text-red-500">
-          // SYSTEM // COMPONENTS
+           SYSTEM  COMPONENTS
         </p>
 
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
@@ -101,7 +101,7 @@ export default function CategoryShowcase({categories}) {
             {/* CONTENT */}
             <div className="absolute bottom-0 left-0 w-full p-4 md:p-6">
               <p className="mb-2 text-[10px] font-medium tracking-[0.4em] text-red-500 md:text-xs">
-                // {category.id}
+                {category.id}
               </p>
 
               <h3

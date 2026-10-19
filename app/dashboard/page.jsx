@@ -51,7 +51,7 @@ const Page = () => {
           </h1>
 
           <p className="mt-4 text-sm leading-6 text-gray-500">
-            // Enter the product details to expand your gear collection.
+            Enter the product details to expand your gear collection.
           </p>
         </div>
 

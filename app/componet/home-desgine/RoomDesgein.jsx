@@ -162,7 +162,7 @@ export default function RoomDesgein() {
               md:tracking-[0.4em]
             "
           >
-            // ROOM DESIGN // 006
+            ROOM DESIGN  006
           </p>
 
           {/* Title */}
