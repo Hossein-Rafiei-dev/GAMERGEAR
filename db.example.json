@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Green ARIA Gaming Case",
+      "descrption": "Green ARIA Mid-Tower gaming case with tempered glass panel, ARGB lighting, dust filters and support for multiple cooling configurations.",
+      "price": 400,
+      "img": "https://pcccenter.com/wp-content/uploads/2021/09/%DA%A9%DB%8C%D8%B3-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%DA%AF%D8%B1%DB%8C%D9%86-%D9%85%D8%AF%D9%84-Aria-150x150.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Green HOMA Gaming Case",
+      "descrption": "Green HOMA Mid-Tower case with ATX support, multiple drive bays and a practical airflow-focused design.",
+      "price": 250,
+      "img": "https://pcccenter.com/wp-content/uploads/2021/09/%DA%A9%DB%8C%D8%B3-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%DA%AF%D8%B1%DB%8C%D9%86-%D9%85%D8%AF%D9%84-HOMA-150x150.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Green Oraman Plus Gaming Case",
+      "descrption": "Green Oraman Plus Mid-Tower case with ATX support, dust filtering and flexible fan installation options.",
+      "price": 350,
+      "img": "https://pcccenter.com/wp-content/uploads/2021/09/%DA%A9%DB%8C%D8%B3-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%DA%AF%D8%B1%DB%8C%D9%86-%D9%85%D8%AF%D9%84-Oraman-Plus-600x600.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Green G6 Griffin Gaming Case",
+      "descrption": "Green G6 Griffin Mid-Tower gaming case with a modern tempered glass design, spacious interior and RGB lighting.",
+      "price": 550,
+      "img": "https://pcccenter.com/wp-content/uploads/2021/09/%DA%A9%DB%8C%D8%B3-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%DA%AF%D8%B1%DB%8C%D9%86-%D9%85%D8%AF%D9%84-G6-150x150.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Green AVA Gaming Case",
+      "descrption": "Green AVA Mid-Tower case with ATX and Micro-ATX support and a compact practical design for gaming systems.",
+      "price": 280,
+      "img": "https://pcccenter.com/wp-content/uploads/2021/09/%DA%A9%DB%8C%D8%B3-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%DA%AF%D8%B1%DB%8C%D9%86-%D9%85%D8%AF%D9%84-AVA-150x150.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Green Z5 Surena Gaming Case",
+      "descrption": "Green Z5 Surena Mid-Tower gaming case with E-ATX support, multiple fan positions and a tempered glass side panel.",
+      "price": 500,
+      "img": "https://pcccenter.com/wp-content/uploads/2021/09/%DA%A9%DB%8C%D8%B3-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%DA%AF%D8%B1%DB%8C%D9%86-%D9%85%D8%AF%D9%84-Z5-SURENA-150x150.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Green Z4 Astiak Gaming Case",
+      "descrption": "Green Z4 Astiak gaming case with tempered glass, LED lighting, cable management and support for high-performance components.",
+      "price": 450,
+      "img": "https://pcccenter.com/wp-content/uploads/2021/09/%DA%A9%DB%8C%D8%B3-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%DA%AF%D8%B1%DB%8C%D9%86-%D9%85%D8%AF%D9%84-Z4-Astiak-600x600.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Green HIWA Gaming Case",
+      "descrption": "Green HIWA Mid-Tower case with ATX, Micro-ATX and Mini-ITX support and a simple functional design.",
+      "price": 220,
+      "img": "https://pcccenter.com/wp-content/uploads/2021/09/%DA%A9%DB%8C%D8%B3-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%DA%AF%D8%B1%DB%8C%D9%86-%D9%85%D8%AF%D9%84-HIWA-600x600.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Green G1 Griffin Gaming Case",
+      "descrption": "Green G1 Griffin Mid-Tower gaming case with ARGB lighting, tempered glass side panel and support for 360mm radiators.",
+      "price": 520,
+      "img": "https://pcccenter.com/wp-content/uploads/2022/12/GREEN-Griffin-G1-Case-G-00-150x150.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Green X2 Jaguar Version 2",
+      "descrption": "Green X2 Jaguar Version 2 gaming case with tempered glass, ATX support, cable management and liquid cooling support.",
+      "price": 480,
+      "img": "https://pcccenter.com/wp-content/uploads/2021/09/%DA%A9%DB%8C%D8%B3-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%DA%AF%D8%B1%DB%8C%D9%86-%D9%85%D8%AF%D9%84-X2-Jaguar-Version-2-150x150.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Green ARAD Gaming Case",
+      "descrption": "Green ARAD gaming case with tempered glass side panel, RGB rear fan, dust filters and support for up to six fans.",
+      "price": 390,
+      "img": "https://pcccenter.com/upload/product/1752330494-Zc4y6gYh.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Fater F-3205 Computer Case",
+      "descrption": "Fater F-3205 Mid-Tower case with ATX, Micro-ATX and Mini-ITX support, seven expansion slots and a compact practical design.",
+      "price": 300,
+      "img": "https://lapmal.com/upload/product/1752330494-Zc4y6gYh.jpg"
+    }
+  ],
+  "order": []
+}
