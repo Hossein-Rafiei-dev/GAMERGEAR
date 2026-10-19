@@ -2,28 +2,32 @@
 
 ### A Gaming Accessories Store Built with Next.js
 
-GAMERGEAR is a gaming accessories e-commerce project built with Next.js, React, and Tailwind CSS. It focuses on creating a modern, responsive shopping experience with reusable components and essential e-commerce functionality.
+GAMERGEAR is a gaming accessories e-commerce project built with Next.js, React, and Tailwind CSS. It provides a responsive shopping interface with product browsing, search, pagination, product details, shopping cart management, and local order submission.
 
 ## 🚀 Features
 
-- 🛍️ Product listing and product detail pages
-- 🔎 Product search
-- 📂 Category-based product browsing
-- 🛒 Shopping cart functionality
-- 📦 Checkout and order form interface
-- 📱 Responsive user interface
-- 🧩 Reusable React components
-- 🔌 Local API integration using JSON Server
+- 🛍️ **Product Listing** — Browse available gaming accessories.
+- 🔎 **Product Search** — Find products by search query.
+- 📄 **Pagination** — Navigate through product listings page by page.
+- 🎮 **Product Details** — View information about individual products.
+- 🛒 **Shopping Cart Management** — Add products, update quantities, and remove items.
+- 💾 **Cart Persistence** — Preserve cart items after refreshing the page.
+- 📦 **Order Submission** — Submit orders through the local JSON Server API.
+- 📱 **Responsive Design** — Browse the store on desktop and mobile devices.
+- 🧩 **Reusable Components** — Build the interface using reusable React components.
+- 🔌 **Local API Integration** — Retrieve product data and submit orders using JSON Server.
+
+**Note:** GAMERGEAR is a local development and portfolio project. It does not include a production backend or real payment processing.
 
 ## 🛠️ Tech Stack
 
 - **Next.js** — React framework
 - **React** — Component-based UI development
-- **JavaScript & TypeScript** — Application logic and type safety
+- **JavaScript and TypeScript** — Application logic and type safety
 - **Tailwind CSS** — Responsive styling
 - **JSON Server** — Local development API
 - **Axios** — HTTP requests
-- **Git & GitHub** — Version control and source code hosting
+- **Git and GitHub** — Version control and source code hosting
 
 ## 📸 Screenshots
 
@@ -46,6 +50,7 @@ GAMERGEAR is a gaming accessories e-commerce project built with Next.js, React, 
 ### Shopping Cart
 
 ![GAMERGEAR Shopping Cart](screenshots/shopping-cart.png)
+
 ## ⚙️ Getting Started
 
 ### Prerequisites
@@ -57,27 +62,17 @@ Make sure you have the following installed:
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository and install the dependencies:
 
-   ```bash
-   git clone https://github.com/Hossein-rafiee-esf/GAMERGEAR.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd GAMERGEAR
-   ```
-
-3. Install the dependencies:
-
-   ```bash
-   npm install
-   ```
+```bash
+git clone https://github.com/Hossein-rafiee-esf/GAMERGEAR.git
+cd GAMERGEAR
+npm install
+```
 
 ### Run the Application
 
-GAMERGEAR uses JSON Server to provide local product and order data. You need to run the API and Next.js development server in two separate terminals.
+GAMERGEAR requires both JSON Server and Next.js to run locally.
 
 **Terminal 1 — Start JSON Server**
 
@@ -85,9 +80,7 @@ GAMERGEAR uses JSON Server to provide local product and order data. You need to 
 npm run server
 ```
 
-The local API will be available at:
-
-`http://localhost:8000`
+The local API will be available at `http://localhost:8000`.
 
 **Terminal 2 — Start Next.js**
 
@@ -95,19 +88,15 @@ The local API will be available at:
 npm run dev
 ```
 
-Open the application in your browser:
+Open `http://localhost:3000` in your browser.
 
-`http://localhost:3000`
+## 🗄️ Sample Database
 
-### 🗄️ Sample Database
-
-The repository includes `db.example.json`, which provides sample product data for local development.
-
-The `npm run server` command starts JSON Server using this sample database. The sample database contains product records and an empty order list.
-
-**Important:** The local `app/db.json` file is excluded from Git to help prevent private development data from being committed.
+The repository includes `db.example.json`, which provides sample product data for local development. The `npm run server` command starts JSON Server using this sample database.
 
 The sample database is intended for development and demonstration purposes only. It is not configured as a production database.
+
+**Important:** The local `app/db.json` file is intended to remain excluded from Git to help prevent private development data from being committed.
 
 ## 👨‍💻 Developer
 
